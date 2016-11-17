@@ -7,9 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class indexController {
 	
-	@RequestMapping("/index")
+	@RequestMapping("/pages/index")
 	public String index(){
-		return"/dispatcher/index.jsp";
+		return"/pages/index.jsp";
+	}
+	
+	@RequestMapping("/pages/users/admin")
+	public String indexAdmin(){
+		return"hellow admin";
 	}
 
 }
