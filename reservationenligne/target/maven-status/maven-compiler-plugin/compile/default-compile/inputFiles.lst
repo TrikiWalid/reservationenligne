@@ -1,4 +1,7 @@
-C:\Users\sti2\git\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\controller\AppInitializer.java
-C:\Users\sti2\git\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\controller\indexController.java
-C:\Users\sti2\git\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\controller\AppConfig.java
-C:\Users\sti2\git\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\controller\loginController.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\repositories\IUserRepositorie.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\services\UserServices.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\controller\indexController.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\controller\loginController.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\repositories\IRoleRepositorie.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\entites\Role.java
+C:\JEE6ToolsEsprit\Workspace\reservationGit\reservationenligne\reservationenligne\src\main\java\com\informatec\reservationenligne\entites\User.java
