@@ -20,19 +20,20 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<jpa:repositories base-package="com.informatec.reservationenligne.repositories"  />
+	<jpa:repositories base-package="com.informatec.reservationenligne.repositories" />
 
 	<import resource="security.xml" />
 
 	<task:annotation-driven />
 
 
-	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-      <property name="url" value="jdbc:postgres://localhost:5432/reservation" />
-      <property name="username" value="postgres" />
-      <property name="driverClassName" value="org.postgresql.Driver" />
-      <property name="password" value="V@m0sblancos" />
-   </bean>
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="url" value="jdbc:postgres://localhost:5432/reservation" />
+		<property name="username" value="postgres" />
+		<property name="driverClassName" value="org.postgresql.Driver" />
+		<property name="password" value="V@m0sblancos" />
+	</bean>
 
 	<bean
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
@@ -50,10 +51,10 @@
 			<bean class="org.hibernate.jpa.HibernatePersistenceProvider" />
 		</property>
 	</bean>
-	
+
 
 	<beans profile="prod">
-		<import resource="database-prod.xml" />
+
 	</beans>
 
 
